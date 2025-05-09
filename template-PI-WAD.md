@@ -2,9 +2,9 @@
 
 **_Os trechos em itálico servem apenas como guia para o preenchimento da seção. Por esse motivo, não devem fazer parte da documentação final._**
 
-## Nome do Projeto
+## Nome do Projeto: Gerenciador  pessoal de tarefas
 
-#### Autor do projeto
+#### Autor do projeto: Rui Facó
 
 ## Sumário
 
@@ -17,9 +17,13 @@
 <br>
 
 ## <a name="c1"></a>1. Introdução (Semana 01)
+À medida que o tempo passa, as pessoas que possuem uma vida agitada precisam lembrar de muitos afazeres no dia e, muitas vezes, não é prático transportar uma agenda física todos os dias, para todos os locais. Pensando nisso, irei desenvolver um sistema de gerenciador de tarefas, onde o usuário poderá definir suas tarefas, que terão: título, prazo e data de início. O objetivo principal é oferecer uma alternativa digital prática e acessível para o controle da rotina, diretamente pelo computador ou celular.
 
-*Preencha com até 300 palavras – sem necessidade de fonte.*
-*Descreva brevemente o sistema que você irá desenvolver.*
+Cada usuário deverá possuir um e-mail e senha para cadastro no sistema, garantindo segurança e individualidade no acesso às informações.
+
+O objetivo é fazer com que esses dados sejam armazenados em um fluxo correto e sustentável, para que o sistema possa funcionar de forma fluida, leve e confiável para os usuários. A proposta é entregar algo simples, mas funcional, focado na experiência do usuário e na organização pessoal.
+
+Em termos mais técnicos, o banco de dados possuirá, inicialmente, duas entidades principais: usuário e tasks. A primeira conterá instâncias como: ID, e-mail e senha. Já a entidade tasks contará com: ID, título, prazo, data de início e ID_usuário. Essa estrutura permitirá uma conexão direta entre tarefas e seus respectivos usuários, garantindo organização e facilidade no gerenciamento.
 
 ---
 
